@@ -10,7 +10,7 @@ public class OrderCardTest {
 
 
         @Test
-        void shouldSubmitRequest() {
+        void OrderFormCorrect() {
                 open("http://localhost:9999");
                 SelenideElement form = $("form");
                 form.$("[data-test-id=name] input").setValue("Иван Николаев-Иванов");
